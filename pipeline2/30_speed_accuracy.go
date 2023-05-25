@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./lib"
+	"otif-pipeline/lib"
 	"fmt"
 	"os"
 	"time"

@@ -13,7 +13,7 @@ def track_one(args):
 
 def track(label, in_path, out_path):
 	fnames = os.listdir(in_path)
-	if label in ['amsterdam', 'jackson', 'shibuya', 'caldot1', 'caldot2', 'warsaw', 'uav']:
+	if label in ['amsterdam', 'jackson', 'shibuya', 'caldot1', 'caldot2', 'warsaw', 'uav', 'mini']:
 		cls = 'car'
 	elif label == 'taipei':
 		cls = 'bus'

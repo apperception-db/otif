@@ -37,7 +37,7 @@ for ds_id in ['amsterdam', 'jackson']:
         files = random.sample(files, 60)
         counter = 0
         for label, id in files:
-            fnames = [os.path.join(video_path, label, '{}.mp4'.format(id+i) for i in range(skip)]
+            fnames = [os.path.join(video_path, label, '{}.mp4'.format(id+i)) for i in range(skip)]
             if not all([os.path.exists(fname) for fname in fnames]):
                 print('skip {}/{} since some not exist'.format(label, id))
                 continue

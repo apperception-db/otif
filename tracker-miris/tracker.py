@@ -4,11 +4,12 @@ import model as model
 import json
 import math
 import numpy
+import os
 import skimage.transform
 import struct
 import sys
 import tensorflow as tf
-#tf.disable_eager_execution()
+tf.disable_eager_execution()
 import graph_nets
 
 data_root = sys.argv[1]
